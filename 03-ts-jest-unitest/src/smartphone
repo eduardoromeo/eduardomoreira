@@ -1,4 +1,4 @@
-import { Item } from "./item";
+/*import { Item } from "./item";
 import { MobileData } from "./models/app.models";
 
 export class SmartPhone extends Item {
@@ -16,4 +16,4 @@ export class SmartPhone extends Item {
 //   versions: '512GB'
 // };
 // const mobObj =  new SmartPhone(mobData);
-// console.log(mobObj.item);
+// console.log(mobObj.item);*/

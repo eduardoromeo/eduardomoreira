@@ -1,4 +1,4 @@
-import { Item } from "./item";
+/*import { Item } from "./item";
 import { ItemData, MobileData, ShirtData } from "./models/app.models";
 import { Shirt } from "./shirt";
 import { SmartPhone } from "./smartphone";
@@ -71,4 +71,4 @@ export class StoreItems {
 
 // //console.log(container.getProduct('Polera'));
 // container.deleteProduct('Polera');
-// console.log(container.getProducts());
+// console.log(container.getProducts());*/
