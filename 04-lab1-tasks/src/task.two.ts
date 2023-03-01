@@ -4,8 +4,8 @@ export class TaskTwo {
 
     static Palindrome(input: string): boolean {  
     
-        let i: number;
-        let j: number;
+        let y: number;
+        let z: number;
         
         let Palindromo: boolean = true;
         let palindrome: String = input;
@@ -13,29 +13,22 @@ export class TaskTwo {
         palindrome = palindrome.replace(/ /t,"");
         palindrome = palindrome.toLowerCase();
         
-        i =0;
-        j= palindrome.length -1;
+        y =0;
+        z= palindrome.length -1;
         
-        while ((i<j) && Palindromo){
-        if (palindrome.charAt(i) !== palindrome.charAt(j)){
+        while ((y<z) && Palindromo){
+        if (palindrome.charAt(y) !== palindrome.charAt(z)){
             Palindromo=false;
-        
             }
-            i++; 
-            j--;
-        
+            y++; 
+            z--;
         }
         
         if(palindrome){
-           
             console.log(`Palindromo es = ${palindrome}`);
         }else{
-        
-            
             console.log(`Palindromo es = ${palindrome}`);
         }
         return Palindromo;
     }
-    
-
 }

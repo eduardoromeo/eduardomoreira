@@ -1,10 +1,11 @@
-//Firs task arrays
+//Firts task arrays
 export class TaskArray {
     constructor(){}
-
+//arrays string
     static returnTaskArray(input: string ): Array<String>{  
     
         let chain: string=input;
+        //string 
         chain = chain.replace(/ /t,"");
         let array:string []=[];
         

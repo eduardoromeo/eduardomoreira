@@ -2,8 +2,8 @@
 export class TaskNumber {
     constructor(){}
 
-    static elNumeroMayor(input: number[] ): Number {  
-    
+    static thenumberbest(input: number[] ): Number {  
+    //array the numbers
         let arrayNumber: number[] = input ;//[1, 3, 9, 17, 69, 47];
         let numberbest:number= arrayNumber[0];
         
@@ -15,6 +15,7 @@ export class TaskNumber {
         }
         
         console.log(`The number best is : ${numberbest}`);
+        //view number best
         return numberbest;
     }
     
