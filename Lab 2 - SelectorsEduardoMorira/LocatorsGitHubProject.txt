@@ -1,0 +1,10 @@
+Locator 1) //a[contains(@data-test, "site-logo")]
+Locator 2) //*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/nav/div[2]/button
+Locator 3) //a[contains(@data-test, "site-header-cart-action")]
+Locator 4) div#js-menu-second-desktop a.wt-col-inline.menu-second__download-button.wt-button.wt-button_size_s.wt-button_mode_primary]   
+Locator 5) //h3[contains(text(),"Сolaboración")]/parent::a  
+Locator 6) //a[text()='IntelliJ Profiler']   
+Locator 7) //div[@class='wt-offset-top-32 comparison-card__button']//button
+Locator 8) //div[@class='comparison-card__button']//a 
+Locator 9) //a[text()='Comparar ediciones']
+Locator 10) //form//span[@class='wt-privacy-notice__message']/following-sibling::* 
